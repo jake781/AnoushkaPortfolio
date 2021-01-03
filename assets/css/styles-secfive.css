@@ -1,0 +1,107 @@
+.bot{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+}
+
+.wrap{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    position: relative;
+}
+.icons>img{
+    background-color: transparent;
+}
+
+.cgit .content{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -50%;
+    width: 100%;
+    height: 100px;
+
+
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50%;
+
+    color: black;
+    font: 25px 'Lato', sans-serif;
+    text-align:center;
+    opacity: 0;
+}
+
+.cgit:hover .content{
+    opacity: 1;
+}
+
+.lower50{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.black1{
+    position: relative;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #111;
+    text-align:center;
+    background: transparent;
+    font: calc(20px + 1.1vw) "Lato", sans-serif;
+}
+
+.morelinks{
+    padding: 50px;
+    text-align: center;
+}
+
+.links{
+    transition: .3s;
+    text-decoration: none;
+    font: calc(15px + 0.6vw) "Lato", sans-serif;
+}
+
+.linksall{
+    transition: .3s;
+    font: calc(10px + 0.6vw) "Century Gothic", sans-serif;
+}
+
+.links:hover{
+    transition: .3s;
+    font: calc(20px + 1vw) "Lato", sans-serif;
+    color: #005298;
+    text-decoration: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    color: black;
+    text-align: center;
+    font: calc(10px + 0.6vw) "Lato", sans-serif;
+}
+
+#myModal{
+    z-index: 99;
+    transform: translateZ(100px);
+}

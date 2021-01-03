@@ -1,0 +1,69 @@
+body, html{
+    scroll-behavior: smooth;
+    height: 100%;
+    background-image: url("../img/bg_bluemat.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .secproject, .bg_about, .bg_cert, .bg_contact, .bg_project_sub{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:40px;
+}
+
+.bg1{
+    background-color: #111111;
+    min-height: 100%;
+}
+
+.bg_project_head{
+    transform: translateZ(100px);
+    height: 100%;
+}
+
+.secproject{
+    transform: translateZ(10px);
+    background: rgba(17, 17, 17, 0.7);
+    height: 100%;
+}
+
+.seccert{
+    color: white;
+    transform: translateZ(100px);
+    background-image: url("../img/bg_darkcert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.seccert:before{
+    display: flex;
+    flex-direction: row;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(17, 17, 17, 0.8);
+}
+
+.bg_cert{
+    transform: translateZ(50px);
+    height: 100%;
+}
+
+.bg_contact{
+    transform: translateZ(100px);
+    background-color: #d4d4d4;
+    min-height: 100%;
+}
+
+.bg_about{
+    background-color: #d4d4d4;
+    height: 100%;
+}

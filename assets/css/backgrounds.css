@@ -1,0 +1,36 @@
+body{
+    scroll-behavior: smooth;
+}
+
+#BG_about, #BG_projects, #BG_contact{
+    height: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#BG_cover{
+    background-color: #111111;
+    height: 100%;
+}
+
+#BG_about{
+    background-color: #d4d4d4;
+}
+
+#BG_projects{
+    background-image: url("../img/bg_bluemat.jpg");
+}
+
+#BG_certificates{
+    background-image: url("../img/bg_darkcert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#BG_contact{
+    background-color: #d4d4d4;
+}

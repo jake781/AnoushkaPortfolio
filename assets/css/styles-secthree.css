@@ -1,0 +1,105 @@
+.project{
+    padding: 40px;
+}
+
+.body_tilt{
+    justify-content: center;
+    align-items: center;
+
+}
+.contain_tilt{
+    position: relative;
+    transform-style: preserve-3d;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.contain_tilt .box_tilt{
+    position: relative;
+    width: 20vw;
+    height: 8vw;
+    transform-style: preserve-3d;
+}
+
+.contain_tilt .box_tilt:hover{
+    box-shadow: 0 50px 80px rgba(255, 255, 255, 0.1);
+}
+
+.contain_tilt .box_tilt .main_tilt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contain_tilt .allmain{
+    position: relative;
+    height: 150px;
+    width: 100%;
+}
+.contain_tilt .box_tilt .content_tilt{
+    position: absolute;
+    top: calc(80% + 0.4vw);
+    left: 2%;
+    right: 2%;
+    background: #FFFFFF;
+    transform: translateZ(20px) scaleY(0);
+    padding: 2%;
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    color: black;
+    text-align: left;
+
+    font-size: calc(10px + 0.4vw);
+    font-family: "Century Gothic", sans-serif;
+
+}
+
+.contain_tilt .box_tilt:hover .content_tilt{
+    transform: translateZ(20px) scaleY(1);
+}
+
+.expand{
+    margin-bottom: 0;
+    transition: margin-bottom 1s;
+}
+
+.expand:hover{
+    margin-bottom: 400px;
+    transition: margin-bottom 1s;
+}
+
+.head_tilt{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.moresub{
+    position: absolute;
+    top: 57%;
+    left: 0;
+    right: 0;
+    padding: 2%;
+    background: rgba(255, 255, 255, 1);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    color: black;
+    text-align: left;
+
+    font-size: calc(10px + 0.5vw);
+    font-family: "Century Gothic", sans-serif;
+}
+
+.contain_tilt .allmain:hover .moresub{
+    transform: scaleY(1);
+}
+

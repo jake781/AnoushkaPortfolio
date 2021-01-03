@@ -1,0 +1,131 @@
+.cent{
+    text-align: center;
+    align-content: center;
+}
+
+.zoom{
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    transition: transform .6s;
+}
+
+.zoomimg{
+    padding: 10px;
+    background-color: transparent;
+    transition: transform .6s;
+}
+
+.zoom1:hover{
+    transform: scale(1.3) translateX(10%);
+}
+
+.zoom2:hover{
+    transform: scale(1.3);
+}
+
+.zoom3:hover{
+    transform: scale(1.3) translateX(-10%);
+}
+
+.zoom4:hover{
+    transform: scale(1.8);
+}
+
+.project_text{
+    padding-bottom: 50px;
+    text-align:center;
+}
+
+.contain_tilt .head{
+    padding: 20px;
+    text-align:center;
+    border-left: rgba(255, 255, 255, 0) solid 10px;
+    border-right: rgba(255, 255, 255, 0) solid 10px;
+
+    color: white;
+    transition: linear 0.2s;
+
+    font-size: calc(10px + 0.9vw);
+    font-family: "Century Gothic", sans-serif;
+}
+
+.contain_tilt .head:hover{
+    background-color: rgba(93, 93, 93, 0.5);
+    transition: linear 0.2s;
+}
+
+.allmain .head2{
+    margin-top: 10px;
+    padding: 20px;
+    text-align:center;
+    color: white;
+    transition: linear 0.2s;
+
+    font-size: calc(10px + 0.9vw);
+    font-family: "Century Gothic", sans-serif;
+}
+
+.allmain .head2:hover{
+    background-color: rgba(93, 93, 93, 0.2);
+    transition: linear 0.2s;
+
+}
+
+.cert_box{
+    border: 2px solid rgb(255, 255, 255);
+    padding: 18px 36px;
+    width: 180px;
+    height: 200px;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    color: #111111;
+}
+
+.anime_cert_box:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cont{
+    width: 60px;
+}
+.page h1.format-icon:before {
+content: none;
+}
+
+.cert_text{
+    color: #111111;
+    font: 16px 'Lato', sans-serif;
+    display: inline-block;
+    align-self: flex-end;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    padding: 5%;
+    width: 100%;
+}
+
+.onepage-pagination li a:before{
+    background: rgba(75, 158, 255, 0.5);
+    width: 8px;
+    height: 8px;
+}
+
+.onepage-pagination{
+    right: 15px;
+    top:45%;
+}
+
+.onepage-pagination li a.active:before{
+    background: rgba(0, 22, 165, 0.5);
+    border: none;
+    margin-top: -2px;
+    width: 12px;
+    height: 12px;
+}

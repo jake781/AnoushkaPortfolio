@@ -1,0 +1,85 @@
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.cover{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.cover> #toptext{
+    font-size: calc(20px + 1.1vw);
+    font-family: "Century Gothic", sans-serif;
+    font-weight: lighter;
+    color: #fffc00;
+}
+
+.cover> #subtext{
+    color: #fffc00;
+    font-weight: bolder;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.anime> div, .anime_text2{
+    opacity: 0;
+    text-transform: uppercase;
+    font: calc(30px + 1.1vw) "Lato", sans-serif;
+}
+
+.anime> div{
+    height: 0;
+}
+
+.anime_text2{
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    animation: fadein 3s forwards;
+    animation-delay: 6.8s;
+}
+
+.anime>div.temp_text:nth-child(1){
+    animation: animation 1s linear;
+    animation-delay: .5s;
+}
+
+.anime>div.temp_text:nth-child(2){
+    animation: animation 1s linear;
+    animation-delay: 1.5s;
+}
+
+.anime>div.temp_text:nth-child(3){
+    animation: animation 1s linear;
+    animation-delay: 2.5s;
+}
+
+.anime>div.temp_text:nth-child(4){
+    animation: animation 1s linear;
+    animation-delay: 3.5s;
+}
+.anime>div.temp_text:nth-child(5){
+    animation: animation 1s linear;
+    animation-delay: 4.5s;
+}
+.anime>div.temp_text:nth-child(6){
+    animation: animation 1s linear;
+    animation-delay: 5.5s;
+}
+
+@keyframes animation{
+    0% {opacity: 0; height: auto;}
+    16% {opacity: 1;}
+    100% {opacity: 0; height: 0;}
+}
+
+@keyframes fadein{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

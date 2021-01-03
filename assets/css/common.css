@@ -1,0 +1,18 @@
+.titles{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: calc(30px + 1.1vw) "Lato", "Brush Script MT", cursive;
+    font-weight: bolder;
+    background: transparent;
+}
+
+.black{
+    color: #111;
+}
+
+.white{
+    color: #FFF;
+}

@@ -1,0 +1,18 @@
+.about{
+    font: calc(13px + 0.7vw) "Lato", sans-serif;
+    padding: 50px;
+    position: relative;
+    color: #000000;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.pp{
+    horiz-align: center;
+    border: #8d8d8d calc(6px + 1.6vw) outset;
+}
